@@ -18,10 +18,10 @@ public class login {
 		driver.get("https://www.amazon.in/");
 		driver.findElement(By.id("nav-link-accountList-nav-line-1")).click();
 		WebElement mail = driver.findElement(By.id("ap_email"));
-		mail.sendKeys("aruln311@gmail.com");
+		mail.sendKeys("arul@gmail.com");
 		mail.submit();
 		WebElement password = driver.findElement(By.id("ap_password"));
-		password.sendKeys("Arul@0311");
+		password.sendKeys("arul0311");
 		driver.findElement(By.id("signInSubmit")).click();
 		
 		WebElement searchbox = driver.findElement(By.id("twotabsearchtextbox"));
